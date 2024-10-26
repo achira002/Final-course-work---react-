@@ -13,6 +13,8 @@ function Home(){
             <Link to="/stock">Stock</Link>
             <br />
             <Link to="/order">Order</Link>
+            <br />
+            <Link to="/createOrder">Create Order</Link>
         </div>
         
     )

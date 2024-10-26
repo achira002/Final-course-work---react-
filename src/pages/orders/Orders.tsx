@@ -25,16 +25,16 @@ function Orders(){
                         <th className="p-2 w-[50px] text-left">#</th>
                         <th className="p-2 w-[300px] text-left">Date Time</th>
                         <th className="p-2 w-[300px] text-right">Total Price</th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     {orders.map(function(order){
                         return(
-                            <tr className="text-sm font-medium text-slate-600">
+                            <tr className="text-sm font-medium text-slate-600 text-left">
                                 <td className="p-2">{order.orderId}</td>
                                 {/* <td>{order.orderDateTime}</td> */}
-                                <td className="p-2 ">{order.totalPrice}
+                                <td className="p-2"></td>
+                                <td className="p-2 text-right">{order.totalPrice}</td>
                             </tr>
                         )
                     })}
